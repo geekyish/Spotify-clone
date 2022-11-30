@@ -46,7 +46,7 @@ nav ul li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     width: 70%;
-    margin: 23px auto;
+    margin: 4px auto;
     border-radius: 5px;
     padding: 34px;
     background-image: url('bg.jpeg');
@@ -55,30 +55,33 @@ nav ul li{
 
 .bottom{
     position: sticky;
-    height: 118px;
+    height: 135px;
     background-color: black;
     color: white;
     bottom: 0;
     justify-content: center;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column; 
+     
 }
 
 .icons{
-   
+    display: flex;
     margin-top: 15px;
-    flex-direction: column;
+    
     margin-left: 670px;
 }
 
 .icons{
     cursor: pointer;
+    
 }
 
 #myProgressBar{
-   
-    width: 80vw;
-    margin:0px 135px
+    display: flex;
+    width: 82vw;
+    margin:9px 135px;
+    cursor: pointer;
 }
 
 .songItemContainer{
@@ -110,4 +113,14 @@ nav ul li{
 
 .timestamp i{
     cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    right: 50.5vw;
+    bottom: 1vh;
+}
+.songInfo img{
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
